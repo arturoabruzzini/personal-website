@@ -23,11 +23,9 @@ const Home: NextPage = () => {
         <p className={styles.description}>Explore</p>
 
         <div className={styles.grid}>
-          <Link href="/count">
-            <a className={styles.card}>
-              <h2>Voice count</h2>
-              <p>A voice counter for counting crochet and knitting stiches.</p>
-            </a>
+          <Link href="/count" className={styles.card}>
+            <h2>Voice count</h2>
+            <p>A voice counter for counting crochet and knitting stiches.</p>
           </Link>
         </div>
       </main>
