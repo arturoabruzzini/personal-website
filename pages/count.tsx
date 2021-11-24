@@ -14,7 +14,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Count with me!</h1>
-        <div>
+        <div className={styles.description}>
+          Count out loud from 1 to 10 repeatedly and I’ll keep track of the
+          total count.
           <VoiceCount />
         </div>
       </main>
